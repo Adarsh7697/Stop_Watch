@@ -1,0 +1,45 @@
+/* body styling  */
+
+body {
+    background-color: rgb(184, 184, 194);
+    font-family: 'Dancing Scipt' , Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Images/Watch.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+/* styling a stopwatch  */
+
+.stopwatch {
+    width: 90%;
+    max-width: 600px;
+    background-image: url(Images/watch1.webp);
+    text-align: center;
+    padding: 40px 0px;
+    color: #fff;
+    margin: 200px auto;
+    box-shadow: 0px 10px 10px rgba(15, 137, 182, 0.8);
+}
+
+/* font style of number or the time show  */
+
+.stopwatch h1 {
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+    
+}
+
+/* styling for buttons  */
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.buttons i{
+    width: 21vh;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+

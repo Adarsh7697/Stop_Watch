@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- meta tag  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title  -->
+    <title>Stop Watch</title>
+
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=EB+Garamond:ital@1&family=PT+Sans+Narrow&family=Poppins:ital,wght@0,400;1,200;1,300&display=swap" rel="stylesheet">
+
+    <!-- font awesome icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    
+
+    <div class="stopwatch">
+        
+        <!-- time show on the browser  
+        1::- 00 for hours
+        2::- 00 for minutes
+        3::- 00 for seconds-->
+        <h1 id="displayTime">00:00:00</h1>
+        <!-- now we have to add button    -->
+        <div class="buttons">
+            <!-- in this button we have create different buttons icons  -->
+            <!-- this is stop button -->
+            <i class="fa-solid fa-stop" onclick="watchStop()"></i> 
+            <!-- this is play button  -->
+            <i class="fa-solid fa-play" onclick="watchStart()"></i>
+            <!-- this is restart button  -->
+            <i class="fa-solid fa-arrows-rotate" onclick="watchReset()"></i>
+        </div>
+
+    </div>
+
+    <!-- link javascript  -->
+     <script src="script.js"></script>
+
+</body>
+</html>
